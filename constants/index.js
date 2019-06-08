@@ -1,4 +1,5 @@
 export const MODES = {
 	ARTICLES: 'ARTICLES',
-	PODCAST: 'PODCAST'
+	PODCAST: 'PODCAST',
+	VIDEO: 'VIDEO',
 };

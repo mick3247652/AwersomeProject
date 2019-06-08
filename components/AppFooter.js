@@ -18,6 +18,11 @@ const AppFooter = ({mode = MODES.ARTICLES, setMode = () => {}}) => (
                                   () => setMode(MODES.PODCAST)}>
 				<Text>Подкасты</Text>
 			</Button>
+			<Button
+				active={mode === MODES.VIDEO}
+				onPress={() => setMode(MODES.VIDEO)}>
+				<Text>Видео</Text>
+			</Button>
 		</FooterTab>
 	</Footer>
 );
